@@ -1,0 +1,1 @@
+ node .\node_modules\mosca\bin\mosca --http-port 2000 --http-static .\ --http-bundle --verbose | node .\node_modules\mosca\node_modules\.bin\bunyan
