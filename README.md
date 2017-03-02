@@ -22,12 +22,9 @@ sudo apt-get install git
               　　  fastcgi_index index.php;  
               　　  include fastcgi_params;  
       　　  }  
- 
 　　2，保存文件，使配置生效 /etc/init.d/nginx reload  
- 
 　　3，启动nginx  
 　　　　/etc/init.d/nginx start  
- 
 　　4，在 /usr/share/nginx/html下新建index.php  
 　　　　<? php  
 　　　　phpinfo();  
