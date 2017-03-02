@@ -33,6 +33,7 @@ sudo apt-get install git
 　　　　phpinfo();
 　　　　?>
 安装php
+
 sudo apt-get install php5-fpm
 sudo apt-get install php5-gd  # Popular image manipulation library; used extensively by Wordpress and it's plugins.
 sudo apt-get install php5-cli   # Makes the php5 command available to the terminal for php5 scripting
