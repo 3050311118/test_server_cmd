@@ -63,17 +63,16 @@ Default Password	public
     
 6.安装redis 
 $sudo apt-get update  
-$sudo apt-get install redis-server  
-$ redis-cli   
-redis 127.0.0.1:6379> ping  
-PONG  
+$sudo apt-get install redis-server   
+检查是否好
+$ redis-cli  安装
+redis 127.0.0.1:6379> ping  
+PONG  
 
 7.安装mongodb
 curl -O https://fastdl.mongodb.org/linux/mongodb-linux-x86_64-ubuntu1404-3.4.2.tgz    
 tar -zxvf mongodb-linux-x86_64-ubuntu1404-3.4.2.tgz  
 
 8.安装myslqd 
-sudo apt-get install mysql-server  
-sudo apt-get install mysql_client  
-
-
+sudo apt-get install mysql-server  检查是否安装好sudo netstat -tap | grep mysql
+sudo apt-get install mysql_client  登陆 mysql -u root -p  并填写密码
