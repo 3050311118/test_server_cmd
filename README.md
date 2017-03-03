@@ -26,4 +26,4 @@ sudo service php5-fpm status
 sudo apt-get install nodejs
 
 5安装emqttd      
-wget wget http://emqtt.com/downloads/2101/ubuntu16_04
+wget http://emqtt.com/downloads/2101/ubuntu14_04
