@@ -60,4 +60,12 @@ unzip emqttd-ubuntu14.04-v2.1.0-beta.1.zip
 Default Address	http://localhost:18083
 Default User	admin
 Default Password	public
+    
+6.安装redis 
+$sudo apt-get update  
+$sudo apt-get install redis-server  
+$ redis-cli   
+redis 127.0.0.1:6379> ping  
+PONG  
 
+7.安装mongodb
