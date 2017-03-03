@@ -15,7 +15,23 @@ server{
                 proxy_pass http://127.0.0.1:9002;
         }
 }
-
+server{
+        listen 80;
+        server_name test.mogudz.com;
+        index index.html;
+        root /usr/share/nginx/html/test.mogudz.com;
+        location ~ \.php$ {
+        #       fastcgi_split_path_info ^(.+\.php)(/.+)$;
+        #       # NOTE: You should have "cgi.fix_pathinfo = 0;" in php.ini
+        #
+        #       # With php5-cgi alone:
+        #       fastcgi_pass 127.0.0.1:9000;
+        #       # With php5-fpm:
+                fastcgi_pass unix:/var/run/php5-fpm.sock;
+                fastcgi_index index.php;
+                include fastcgi_params;
+        }
+}
 3.安装php  
 sudo apt-get install php5-fpm  
 sudo apt-get install php5-gd  # Popular image manipulation library; used extensively by Wordpress and it's plugins.  
