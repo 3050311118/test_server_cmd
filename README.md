@@ -4,11 +4,8 @@ sudo apt-get install git
 
 2.安装nginx   
 sudo apt-get install nginx    
-
 默认网页目录  /usr/share/nginx/html    
-
 默认配置文件修改内部子域名  /etc/nginx/sites-avaiable/default    
-
 增加php执行支持
 
 3.安装php  
