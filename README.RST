@@ -45,9 +45,12 @@ sudo service php5-fpm start
 sudo service php5-fpm restart
 sudo service php5-fpm status
 
-4.安装nodejs sudo apt-get install nodejs
+4.安装nodejs sudo apt-get install nodejs   查看版本 nodejs -v
+5.安装npm    sudo apt-get install npm      查看版本 npm -v
+6.安装pm2    npm install -g pm2  
 
-5安装emqttd  
+
+5安装emqttd  
 wget http://emqtt.com/downloads/2101/ubuntu14_04
 unzip emqttd-ubuntu14.04-v2.1.0-beta.1.zip
 # Start emqttd
