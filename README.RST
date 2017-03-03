@@ -72,3 +72,6 @@ PONG
 curl -O https://fastdl.mongodb.org/linux/mongodb-linux-x86_64-ubuntu1404-3.4.2.tgz    
 tar -zxvf mongodb-linux-x86_64-ubuntu1404-3.4.2.tgz  
 
+8.安装myslqd 
+sudo apt-get install mysql-server  
+sudo apt-get install mysql_cli  
