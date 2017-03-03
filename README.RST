@@ -50,4 +50,14 @@ sudo service php5-fpm status
 5安装emqttd  
 wget http://emqtt.com/downloads/2101/ubuntu14_04
 unzip emqttd-ubuntu14.04-v2.1.0-beta.1.zip
+# Start emqttd
+./bin/emqttd start
+# Check Status
+./bin/emqttd_ctl status
+# Stop emqttd
+./bin/emqttd stop
+
+Default Address	http://localhost:18083
+Default User	admin
+Default Password	public
 
