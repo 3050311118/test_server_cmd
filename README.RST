@@ -69,4 +69,6 @@ redis 127.0.0.1:6379> ping
 PONG  
 
 7.安装mongodb
-sudo apt-get install mongo
+curl -O https://fastdl.mongodb.org/linux/mongodb-linux-x86_64-ubuntu1404-3.4.2.tgz    
+tar -zxvf mongodb-linux-x86_64-ubuntu1404-3.4.2.tgz  
+
