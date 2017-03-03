@@ -8,6 +8,14 @@ sudo apt-get install nginx  
 默认配置文件修改内部子域名  /etc/nginx/sites-avaiable/default    
 增加php执行支持
 
+server{
+        listen 80;
+        server_name rest.mogudz.com;
+        location / {
+                proxy_pass http://127.0.0.1:9002;
+        }
+}
+
 3.安装php  
 sudo apt-get install php5-fpm  
 sudo apt-get install php5-gd  # Popular image manipulation library; used extensively by Wordpress and it's plugins.  
