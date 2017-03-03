@@ -69,3 +69,4 @@ redis 127.0.0.1:6379> ping
 PONG  
 
 7.安装mongodb
+sudo apt-get install mongo
