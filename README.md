@@ -1,14 +1,14 @@
 # test_server_cmd  
-安装git  
-sudo apt-get install git  
-安装nginx  
-一，安装Nginx  
-apt-get install nginx  
+1.安装git  
+sudo apt-get install git    
+
+2.安装nginx   
+sudo apt-get install nginx  
 默认网页目录  /usr/share/nginx/html  
 默认配置文件修改内部子域名  /etc/nginx/sites-avaiable/default  
 增加php执行支持
 
-安装php  
+3.安装php  
 sudo apt-get install php5-fpm  
 sudo apt-get install php5-gd  # Popular image manipulation library; used extensively by Wordpress and it's plugins.  
 sudo apt-get install php5-cli   # Makes the php5 command available to the terminal for php5 scripting  
@@ -22,3 +22,8 @@ sudo service php5-fpm start
 sudo service php5-fpm restart  
 sudo service php5-fpm status  
 
+4.安装nodejs
+sudo apt-get install nodejs
+
+5安装emqttd      
+wget wget http://emqtt.com/downloads/2101/ubuntu16_04
