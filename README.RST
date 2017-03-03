@@ -47,7 +47,7 @@ sudo service php5-fpm status
 
 4.安装nodejs sudo apt-get install nodejs   查看版本 nodejs -v
 5.安装npm    sudo apt-get install npm      查看版本 npm -v
-6.安装pm2    npm install -g pm2  
+6.安装pm2    sudo npm install -g pm2  
 
 
 5安装emqttd  
